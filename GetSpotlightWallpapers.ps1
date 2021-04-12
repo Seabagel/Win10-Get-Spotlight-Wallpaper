@@ -5,5 +5,5 @@ If( !(test-path $DesktopPath) ){ New-Item -ItemType Directory -Force -Path $Desk
 If( !(test-path $WallpaperPath) ){ New-Item -ItemType Directory -Force -Path $WallpaperPath }
 
 cd $DesktopPath
-gci $WallpaperPath -File | Copy-Item -Destination $DesktopPath
+gci $WallpaperPath -File | Copy-Item -Destination $DesktopPath -Force
 gci $DesktopPath -File | Rename-Item -NewName { $_.basename + ".png"}
