@@ -1,5 +1,8 @@
 # Win10 Get Spotlight Wallpaper
- Copy Windows 10 Spotlight Wallpaper to your desktop
+- Copy Windows 10 Spotlight Wallpaper to your desktop
 
-## CAUTION, this doesn't work with Command Line (CMD). POWERSHELL ONLY!
-### In that case: Edit the script, and change `$env:UserName` to your current username login
+## Instructions:
+### Command Line (.cmd)
+- Double click `RenameCopyMoveBatch.cmd`
+### Powershell (.ps1)
+- Double click `RenameCopyMoveBatch.ps1`
