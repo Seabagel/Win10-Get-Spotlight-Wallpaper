@@ -4,6 +4,6 @@
 ## Instructions:
 ### Command Line (.cmd)
 ### CAUTION! Edit the `.cmd` file and change `<YOUR_USERNAME>` to your current user, otherwise it will change everything in this directory into a .png file
-- Double click `RenameCopyMoveBatch.cmd`
+- Double click `GetSpotlightWallpapers.cmd`
 ### Powershell (.ps1)
-- Double click `RenameCopyMoveBatch.ps1`
+- Double click `GetSpotlightWallpapers.ps1`
